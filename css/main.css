@@ -225,7 +225,10 @@ body {
     justify-content: center;
   }
   .photo-column::after {
-    clip-path: circle(35%);
+    clip-path: path(
+      "M140,50 C180,30 220,30 250,50 C280,70 260,140 230,190 C200,230 140,260 140,260 C140,260 80,230 50,190 C20,140 0,70 30,50 C60,30 100,30 140,50 Z"
+    );
+    /* clip-path: circle(35%); */
     top: -8px;
     left: -8px;
     right: -8px;
@@ -235,7 +238,10 @@ body {
   .main-photo {
     width: 280px;
     height: 280px;
-    clip-path: circle(35%);
+    /* clip-path: circle(35%); */
+    clip-path: path(
+      "M140,50 C180,30 220,30 250,50 C280,70 260,140 230,190 C200,230 140,260 140,260 C140,260 80,230 50,190 C20,140 0,70 30,50 C60,30 100,30 140,50 Z"
+    );
   }
 
   .name-top h2 {
