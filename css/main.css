@@ -233,8 +233,8 @@ body {
   }
 
   .main-photo {
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
     clip-path: circle(45%);
   }
 
