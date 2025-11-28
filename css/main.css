@@ -225,7 +225,7 @@ body {
     justify-content: center;
   }
   .photo-column::after {
-    clip-path: circle(45%);
+    clip-path: circle(35%);
     top: -8px;
     left: -8px;
     right: -8px;
@@ -235,7 +235,7 @@ body {
   .main-photo {
     width: 280px;
     height: 280px;
-    clip-path: circle(45%);
+    clip-path: circle(35%);
   }
 
   .name-top h2 {
