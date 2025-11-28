@@ -226,10 +226,9 @@ body {
   }
 
   .main-photo {
-    width: 85vw !important;
-    max-width: 300px !important;
-    height: 85vw !important;
-    max-height: 300px !important;
+    width: 280px;
+    height: 280px;
+    clip-path: circle(50%);
   }
 
   .name-top h2 {
