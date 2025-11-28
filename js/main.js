@@ -3,17 +3,6 @@ document.querySelector(".gallery-btn").addEventListener("click", function () {
   window.location.href = "gallery.html";
 });
 
-// Анимация прокрутки на мобильных
-// if (window.innerWidth <= 768) {
-//   const photo = document.querySelector(".main-photo");
-//   photo.addEventListener("click", function () {
-//     this.classList.add("scrolling");
-//     setTimeout(() => {
-//       this.classList.remove("scrolling");
-//     }, 2000);
-//   });
-// }
-
 // Эффект рассыпания
 function createParticles(element) {
   const rect = element.getBoundingClientRect();
