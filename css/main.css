@@ -227,9 +227,9 @@ body {
 
   .main-photo {
     width: 90vw;
-    max-width: 200px;
+    max-width: 400px;
     height: 90vw;
-    max-height: 200px;    
+    max-height: 400px;    
   }
 
   .name-top h2 {
