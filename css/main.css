@@ -224,11 +224,18 @@ body {
     display: flex;
     justify-content: center;
   }
+  .photo-column::after {
+    clip-path: circle(45%);
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+  }
 
   .main-photo {
     width: 280px;
     height: 280px;
-    object-fit: cover;
+    clip-path: circle(45%);
   }
 
   .name-top h2 {
