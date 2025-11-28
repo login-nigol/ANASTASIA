@@ -220,7 +220,7 @@ body {
   }
 
   .photo-column {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
   }
@@ -233,8 +233,8 @@ body {
   }
 
   .main-photo {
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
     clip-path: circle(45%);
   }
 
