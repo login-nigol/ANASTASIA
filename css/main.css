@@ -225,7 +225,8 @@ body {
   }
 
   .main-photo {
-    width: 300px;
+    width: 280px;
+    max-width: 90vw;
   }
 
   .name-top h2 {
